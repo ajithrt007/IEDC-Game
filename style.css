@@ -85,6 +85,7 @@
 .team-name {
   margin-left: 6%;
   min-width: 12vw;
+  max-width: 30px;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -153,7 +154,9 @@
   margin-bottom: 2%;
 }
 .player-text {
-  margin-left: 44vw;
+  /* margin-left: 44vw; */
+  position: absolute;
+  right: 51.5vw;
 }
 .footer {
   background: #002b64;
@@ -289,7 +292,8 @@
   }
   .team-name {
     margin-left: 30px;
-    max-width: 47vw;
+    max-width: 33vw;
+    overflow-x: hidden;
   }
   .team-points {
     min-width: unset;
@@ -354,7 +358,9 @@
     margin-bottom: 2vh;
   }
   .player-text {
-    margin-left: unset;
+    /* margin-left: unset; */
+    position: absolute;
+    right: 11vw;
   }
   .footer {
     width: 100vw;
