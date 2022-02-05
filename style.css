@@ -362,6 +362,10 @@
     position: absolute;
     right: 11vw;
   }
+  .player p{
+    max-width: 63vw;
+    overflow-x: hidden;
+  }
   .footer {
     width: 100vw;
     background: #002b64;
